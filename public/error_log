@@ -1,0 +1,42 @@
+[23-Mar-2023 07:17:49 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/amacomso/public_html/alumni/storage/framework/views/44a54c3cefccdb19fde3b4954e808453.php on line 54
+[28-Mar-2023 07:03:58 UTC] PHP Fatal error:  Cannot use App\Models\WorkshopApplication as WorkshopApplication because the name is already in use in /home/amacomso/public_html/alumni/routes/web.php on line 32
+[29-Mar-2023 09:27:35 UTC] PHP Fatal error:  Cannot use App\Http\Controllers\CourseController as CourseController because the name is already in use in /home/amacomso/public_html/alumni/routes/web.php on line 14
+[30-Mar-2023 04:46:01 UTC] PHP Fatal error:  Cannot use temporary expression in write context in /home/amacomso/public_html/alumni/app/Http/Controllers/CourseController.php on line 44
+[30-Mar-2023 07:15:21 UTC] PHP Fatal error:  During class fetch: Uncaught ParseError: syntax error, unexpected identifier "view" in /home/amacomso/public_html/alumni/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php:23
+Stack trace:
+#0 /home/amacomso/public_html/alumni/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 /home/amacomso/public_html/alumni/app/Http/Controllers/Auth/LoginController.php(9): Composer\Autoload\ClassLoader->loadClass()
+#2 /home/amacomso/public_html/alumni/vendor/composer/ClassLoader.php(571): include('/home/amacomso/...')
+#3 /home/amacomso/public_html/alumni/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#5 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1092): is_a()
+#6 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1031): Illuminate\Routing\Route->controllerMiddleware()
+#7 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Routing/Router.php(810): Illuminate\Routing\Route->gatherMiddleware()
+#8 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Routing/Router.php(792): Illuminate\Routing\Router->gatherRouteMiddleware()
+#9 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\Routing\Router->runRouteWithinStack()
+#10 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\Routing\Router->runRoute()
+#11 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\Routing\Router->dispatchToRoute()
+#12 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\Routing\Router->dispatch()
+#13 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#14 /home/amacomso/public_html/alumni/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(66): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#15 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Barryvdh\Debugbar\Middleware\InjectDebugbar->handle()
+#16 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#17 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#18 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle()
+#19 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#20 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#21 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\TrimStrings->handle()
+#22 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#23 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle()
+#24 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#25 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle()
+#26 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#27 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\HandleCors->handle()
+#28 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#29 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\TrustProxies->handle()
+#30 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#31 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\Pipeline\Pipeline->then()
+#32 /home/amacomso/public_html/alumni/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#33 /home/amacomso/public_html/alumni/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#34 {main} in /home/amacomso/public_html/alumni/app/Http/Controllers/Auth/LoginController.php on line 9
+[30-Mar-2023 08:49:47 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UniversalController::approvalView() in /home/amacomso/public_html/alumni/app/Http/Controllers/UniversalController.php on line 65

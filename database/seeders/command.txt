@@ -1,0 +1,17 @@
+Please run below commands.
+
+1: php artisan db:seed --class=PermissionTableSeeder
+2:- php artisan db:seed --class=CreateAdminSeeder
+3:- php artisan db:seed --class=CreateAdminSeeder
+
+
+----------------------------------------------------------------
+Login 
+
+superadmin@gmail.com
+12345678
+
+admin@gmail.com
+12345678
+
+----------------------------------------------------------------
